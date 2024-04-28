@@ -1163,7 +1163,7 @@ p1 <- p1 + labs (y = "semantic space x", x = "semantic space y")
 #p1 <- p1 + ylim(min(one.data.all$plot_Y)-one.y_range/10,max(one.data.all$plot_Y)+one.y_range/10)
 
 ggsave("revigo-plot.png", width = 10, height = 10)
-ggsave("evigo-plot.pdf", width = 10, height = 10)
+ggsave("revigo-plot.pdf", width = 10, height = 10)
 
 
 
