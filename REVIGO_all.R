@@ -1162,8 +1162,8 @@ p1 <- p1 + labs (y = "semantic space x", x = "semantic space y")
 #p1 <- p1 + xlim(min(one.data.all$plot_X)-one.x_range/10,max(one.data.all$plot_X)+one.x_range/10);
 #p1 <- p1 + ylim(min(one.data.all$plot_Y)-one.y_range/10,max(one.data.all$plot_Y)+one.y_range/10)
 
-ggsave("Documents/lausanne_postdoc/figures for Wolflab presentation/revigo-plot.png", width = 10, height = 10)
-ggsave("Documents/lausanne_postdoc/figures for Wolflab presentation/revigo-plot.pdf", width = 10, height = 10)
+ggsave("revigo-plot.png", width = 10, height = 10)
+ggsave("evigo-plot.pdf", width = 10, height = 10)
 
 
 
